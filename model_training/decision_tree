@@ -1,0 +1,318 @@
+digraph {
+	4462649824 [label="Category.Two.Defects <= 14.5000
+MSE Red.: 0.4720"]
+	4490775104 [label="altitude_mean_meters <= 1464.5000
+MSE Red.: 0.3061"]
+	4462649824 -> 4490775104 [label=True]
+	4495059200 [label="Category.Two.Defects <= 3.5000
+MSE Red.: 0.3600"]
+	4490775104 -> 4495059200 [label=True]
+	4497254128 [label="Processing.Method_Washed / Wet <= 0.5000
+MSE Red.: 0.1953"]
+	4495059200 -> 4497254128 [label=True]
+	4497254224 [label="altitude_mean_meters <= 1150.0000
+MSE Red.: 0.2088"]
+	4497254128 -> 4497254224 [label=True]
+	4497035952 [label="Country.of.Origin_Colombia <= 0.5000
+MSE Red.: 0.1088"]
+	4497254224 -> 4497035952 [label=True]
+	4465759712 [label="altitude_mean_meters <= 725.0000
+MSE Red.: 0.0883"]
+	4497035952 -> 4465759712 [label=True]
+	4478014128 [label="Moisture <= 0.0550
+MSE Red.: 0.3548"]
+	4465759712 -> 4478014128 [label=True]
+	4477429440 [label="Variety_Typica <= 0.5000
+MSE Red.: 0.5265"]
+	4478014128 -> 4477429440 [label=True]
+	4402880608 [label="Variety_Other <= 0.5000
+MSE Red.: 0.2905"]
+	4477429440 -> 4402880608 [label=True]
+	4497033696 [label="Predict: 82.3750"]
+	4402880608 -> 4497033696 [label=True]
+	4497043440 [label="Predict: 80.5000"]
+	4402880608 -> 4497043440 [label=False]
+	4497031632 [label="Predict: 84.8300"]
+	4477429440 -> 4497031632 [label=False]
+	4494523952 [label="Predict: 81.2075"]
+	4478014128 -> 4494523952 [label=False]
+	4494510800 [label="Processing.Method_Semi-washed / Semi-pulped <= 0.5000
+MSE Red.: 0.1146"]
+	4465759712 -> 4494510800 [label=False]
+	4494508160 [label="Moisture <= 0.1150
+MSE Red.: 0.0768"]
+	4494510800 -> 4494508160 [label=True]
+	4502063776 [label="altitude_mean_meters <= 881.0000
+MSE Red.: 0.1060"]
+	4494508160 -> 4502063776 [label=True]
+	4502074480 [label="Predict: 83.2767"]
+	4502063776 -> 4502074480 [label=True]
+	4502073280 [label="Predict: 82.1754"]
+	4502063776 -> 4502073280 [label=False]
+	4502072608 [label="Predict: 82.9456"]
+	4494508160 -> 4502072608 [label=False]
+	4502066368 [label="Predict: 83.3056"]
+	4494510800 -> 4502066368 [label=False]
+	4502073952 [label="Predict: 83.4344"]
+	4497035952 -> 4502073952 [label=False]
+	4465871472 [label="Country.of.Origin_Honduras <= 0.5000
+MSE Red.: 0.6879"]
+	4497254224 -> 4465871472 [label=False]
+	4482313120 [label="Category.Two.Defects <= 1.5000
+MSE Red.: 0.3496"]
+	4465871472 -> 4482313120 [label=True]
+	4502065216 [label="Variety_Sumatra <= 0.5000
+MSE Red.: 0.4912"]
+	4482313120 -> 4502065216 [label=True]
+	4497384144 [label="Category.Two.Defects <= 0.5000
+MSE Red.: 0.1958"]
+	4502065216 -> 4497384144 [label=True]
+	4490382896 [label="Predict: 82.8978"]
+	4497384144 -> 4490382896 [label=True]
+	4477710944 [label="Category.One.Defects <= 0.5000
+MSE Red.: 0.5796"]
+	4497384144 -> 4477710944 [label=False]
+	4488389952 [label="Predict: 84.0378"]
+	4477710944 -> 4488389952 [label=True]
+	4494296512 [label="Predict: 81.5000"]
+	4477710944 -> 4494296512 [label=False]
+	4494301984 [label="Predict: 86.5800"]
+	4502065216 -> 4494301984 [label=False]
+	4494304048 [label="Predict: 84.8338"]
+	4482313120 -> 4494304048 [label=False]
+	4494303712 [label="Predict: 81.7233"]
+	4465871472 -> 4494303712 [label=False]
+	4415250384 [label="Country.of.Origin_Costa Rica <= 0.5000
+MSE Red.: 0.2040"]
+	4497254128 -> 4415250384 [label=False]
+	4455545888 [label="Category.Two.Defects <= 2.5000
+MSE Red.: 0.3149"]
+	4415250384 -> 4455545888 [label=True]
+	4487763328 [label="Country.of.Origin_China <= 0.5000
+MSE Red.: 0.2093"]
+	4455545888 -> 4487763328 [label=True]
+	4494295216 [label="Category.One.Defects <= 0.5000
+MSE Red.: 0.1651"]
+	4487763328 -> 4494295216 [label=True]
+	4415252736 [label="Variety_Typica <= 0.5000
+MSE Red.: 0.1689"]
+	4494295216 -> 4415252736 [label=True]
+	4402040272 [label="Country.of.Origin_Nicaragua <= 0.5000
+MSE Red.: 0.1057"]
+	4415252736 -> 4402040272 [label=True]
+	4494296176 [label="Predict: 82.3279"]
+	4402040272 -> 4494296176 [label=True]
+	4415682896 [label="Predict: 80.0400"]
+	4402040272 -> 4415682896 [label=False]
+	4415682800 [label="altitude_mean_meters <= 1050.0000
+MSE Red.: 0.3561"]
+	4415252736 -> 4415682800 [label=False]
+	4502622704 [label="Predict: 80.8936"]
+	4415682800 -> 4502622704 [label=True]
+	4502622848 [label="Predict: 82.1094"]
+	4415682800 -> 4502622848 [label=False]
+	4502622656 [label="Predict: 79.9700"]
+	4494295216 -> 4502622656 [label=False]
+	4502633456 [label="Predict: 85.8750"]
+	4487763328 -> 4502633456 [label=False]
+	4502622752 [label="altitude_mean_meters <= 1425.0000
+MSE Red.: 2.3777"]
+	4455545888 -> 4502622752 [label=False]
+	4502622608 [label="Variety_Bourbon <= 0.5000
+MSE Red.: 1.3230"]
+	4502622752 -> 4502622608 [label=True]
+	4502624288 [label="Country.of.Origin_Mexico <= 0.5000
+MSE Red.: 0.5919"]
+	4502622608 -> 4502624288 [label=True]
+	4502620976 [label="altitude_mean_meters <= 1234.6000
+MSE Red.: 1.1197"]
+	4502624288 -> 4502620976 [label=True]
+	4502624192 [label="Predict: 79.9850"]
+	4502620976 -> 4502624192 [label=True]
+	4502621888 [label="Predict: 82.1450"]
+	4502620976 -> 4502621888 [label=False]
+	4502624240 [label="Predict: 79.2857"]
+	4502624288 -> 4502624240 [label=False]
+	4502626352 [label="Predict: 82.9500"]
+	4502622608 -> 4502626352 [label=False]
+	4502628224 [label="Predict: 75.2500"]
+	4502622752 -> 4502628224 [label=False]
+	4502628176 [label="Moisture <= 0.1050
+MSE Red.: 0.6221"]
+	4415250384 -> 4502628176 [label=False]
+	4502628128 [label="Predict: 84.1000"]
+	4502628176 -> 4502628128 [label=True]
+	4502624480 [label="Category.Two.Defects <= 1.5000
+MSE Red.: 0.6813"]
+	4502628176 -> 4502624480 [label=False]
+	4502631056 [label="Predict: 81.1667"]
+	4502624480 -> 4502631056 [label=True]
+	4502634272 [label="Predict: 83.0200"]
+	4502624480 -> 4502634272 [label=False]
+	4502627840 [label="altitude_mean_meters <= 1409.7000
+MSE Red.: 1.4212"]
+	4495059200 -> 4502627840 [label=False]
+	4502631152 [label="Processing.Method_Other <= 0.5000
+MSE Red.: 1.1756"]
+	4502627840 -> 4502631152 [label=True]
+	4502624528 [label="Category.One.Defects <= 6.0000
+MSE Red.: 0.5011"]
+	4502631152 -> 4502624528 [label=True]
+	4502620496 [label="Country.of.Origin_Costa Rica <= 0.5000
+MSE Red.: 0.2264"]
+	4502624528 -> 4502620496 [label=True]
+	4502631104 [label="Variety_Other <= 0.5000
+MSE Red.: 0.2141"]
+	4502620496 -> 4502631104 [label=True]
+	4502627312 [label="Country.of.Origin_Thailand <= 0.5000
+MSE Red.: 0.1897"]
+	4502631104 -> 4502627312 [label=True]
+	4502620544 [label="Variety_Pacas <= 0.5000
+MSE Red.: 0.1800"]
+	4502627312 -> 4502620544 [label=True]
+	4502624624 [label="Predict: 81.7584"]
+	4502620544 -> 4502624624 [label=True]
+	4502626928 [label="Predict: 79.2233"]
+	4502620544 -> 4502626928 [label=False]
+	4502629856 [label="Predict: 86.1700"]
+	4502627312 -> 4502629856 [label=False]
+	4502620592 [label="Predict: 79.6817"]
+	4502631104 -> 4502620592 [label=False]
+	4502624432 [label="Predict: 79.4600"]
+	4502620496 -> 4502624432 [label=False]
+	4502625152 [label="Predict: 76.0000"]
+	4502624528 -> 4502625152 [label=False]
+	4502620880 [label="Predict: 74.4133"]
+	4502631152 -> 4502620880 [label=False]
+	4502633264 [label="Predict: 76.2812"]
+	4502627840 -> 4502633264 [label=False]
+	4502621216 [label="Country.of.Origin_Ethiopia <= 0.5000
+MSE Red.: 0.2674"]
+	4490775104 -> 4502621216 [label=False]
+	4502629232 [label="Country.of.Origin_Mexico <= 0.5000
+MSE Red.: 0.2284"]
+	4502621216 -> 4502629232 [label=True]
+	4502627888 [label="altitude_mean_meters <= 2780.0000
+MSE Red.: 0.2054"]
+	4502629232 -> 4502627888 [label=True]
+	4502624912 [label="Country.of.Origin_Kenya <= 0.5000
+MSE Red.: 0.1309"]
+	4502627888 -> 4502624912 [label=True]
+	4502624672 [label="Variety_SL14 <= 0.5000
+MSE Red.: 0.0961"]
+	4502624912 -> 4502624672 [label=True]
+	4502621552 [label="Country.of.Origin_Colombia <= 0.5000
+MSE Red.: 0.1003"]
+	4502624672 -> 4502621552 [label=True]
+	4502620928 [label="Category.Two.Defects <= 3.5000
+MSE Red.: 0.1085"]
+	4502621552 -> 4502620928 [label=True]
+	4502621264 [label="Color_Blue-Green <= 0.5000
+MSE Red.: 0.1549"]
+	4502620928 -> 4502621264 [label=True]
+	4502620784 [label="Predict: 82.8728"]
+	4502621264 -> 4502620784 [label=True]
+	4502620832 [label="Predict: 84.3500"]
+	4502621264 -> 4502620832 [label=False]
+	4502621504 [label="Variety_Catuai <= 0.5000
+MSE Red.: 0.3732"]
+	4502620928 -> 4502621504 [label=False]
+	4502633792 [label="Predict: 82.5132"]
+	4502621504 -> 4502633792 [label=True]
+	4502620736 [label="Predict: 80.5225"]
+	4502621504 -> 4502620736 [label=False]
+	4502626496 [label="Moisture <= 0.1150
+MSE Red.: 0.0762"]
+	4502621552 -> 4502626496 [label=False]
+	4502621840 [label="altitude_mean_meters <= 2018.0000
+MSE Red.: 0.0642"]
+	4502626496 -> 4502621840 [label=True]
+	4502629376 [label="Predict: 83.1854"]
+	4502621840 -> 4502629376 [label=True]
+	4502626016 [label="Predict: 84.1850"]
+	4502621840 -> 4502626016 [label=False]
+	4502626448 [label="Color_Bluish-Green <= 0.5000
+MSE Red.: 0.0885"]
+	4502626496 -> 4502626448 [label=False]
+	4502626400 [label="Predict: 84.0764"]
+	4502626448 -> 4502626400 [label=True]
+	4502629424 [label="Predict: 83.0000"]
+	4502626448 -> 4502629424 [label=False]
+	4502629472 [label="altitude_mean_meters <= 1875.0000
+MSE Red.: 0.6657"]
+	4502624672 -> 4502629472 [label=False]
+	4502624720 [label="Category.Two.Defects <= 2.0000
+MSE Red.: 0.5503"]
+	4502629472 -> 4502624720 [label=True]
+	4502631776 [label="Predict: 84.2133"]
+	4502624720 -> 4502631776 [label=True]
+	4502626544 [label="Predict: 82.2900"]
+	4502624720 -> 4502626544 [label=False]
+	4502627984 [label="Predict: 86.1250"]
+	4502629472 -> 4502627984 [label=False]
+	4502627216 [label="Processing.Method_Natural / Dry <= 0.5000
+MSE Red.: 0.2000"]
+	4502624912 -> 4502627216 [label=False]
+	4502621744 [label="altitude_mean_meters <= 1830.0000
+MSE Red.: 0.1327"]
+	4502627216 -> 4502621744 [label=True]
+	4502628800 [label="Predict: 84.2387"]
+	4502621744 -> 4502628800 [label=True]
+	4502627936 [label="Predict: 85.0567"]
+	4502621744 -> 4502627936 [label=False]
+	4502633360 [label="Predict: 86.0800"]
+	4502627216 -> 4502633360 [label=False]
+	4502630960 [label="Predict: 80.6771"]
+	4502627888 -> 4502630960 [label=False]
+	4502622512 [label="altitude_mean_meters <= 1750.0000
+MSE Red.: 3.1483"]
+	4502629232 -> 4502622512 [label=False]
+	4502628752 [label="Moisture <= 0.1250
+MSE Red.: 0.5642"]
+	4502622512 -> 4502628752 [label=True]
+	4502621792 [label="Color_Blue-Green <= 0.5000
+MSE Red.: 0.3322"]
+	4502628752 -> 4502621792 [label=True]
+	4502631008 [label="altitude_mean_meters <= 1490.0000
+MSE Red.: 0.3179"]
+	4502621792 -> 4502631008 [label=True]
+	4502630912 [label="Predict: 84.0800"]
+	4502631008 -> 4502630912 [label=True]
+	4502622560 [label="altitude_mean_meters <= 1580.0000
+MSE Red.: 0.1385"]
+	4502631008 -> 4502622560 [label=False]
+	4502628704 [label="Predict: 82.1389"]
+	4502622560 -> 4502628704 [label=True]
+	4502628272 [label="Predict: 81.3325"]
+	4502622560 -> 4502628272 [label=False]
+	4502622320 [label="Predict: 83.7900"]
+	4502621792 -> 4502622320 [label=False]
+	4502623136 [label="Predict: 79.8750"]
+	4502628752 -> 4502623136 [label=False]
+	4502630864 [label="Predict: 76.0850"]
+	4502622512 -> 4502630864 [label=False]
+	4502621936 [label="Predict: 86.4840"]
+	4502621216 -> 4502621936 [label=False]
+	4502622992 [label="altitude_mean_meters <= 1475.0000
+MSE Red.: 6.1527"]
+	4462649824 -> 4502622992 [label=False]
+	4502626304 [label="Country.of.Origin_Haiti <= 0.5000
+MSE Red.: 4.5771"]
+	4502622992 -> 4502626304 [label=True]
+	4502628656 [label="altitude_mean_meters <= 1150.0000
+MSE Red.: 2.2590"]
+	4502626304 -> 4502628656 [label=True]
+	4502622944 [label="Predict: 79.4988"]
+	4502628656 -> 4502622944 [label=True]
+	4502630816 [label="Moisture <= 0.1350
+MSE Red.: 2.2337"]
+	4502628656 -> 4502630816 [label=False]
+	4502623328 [label="Predict: 75.7500"]
+	4502630816 -> 4502623328 [label=True]
+	4502632544 [label="Predict: 79.6250"]
+	4502630816 -> 4502632544 [label=False]
+	4502632880 [label="Predict: 67.9200"]
+	4502626304 -> 4502632880 [label=False]
+	4502630768 [label="Predict: 82.9057"]
+	4502622992 -> 4502630768 [label=False]
+}
